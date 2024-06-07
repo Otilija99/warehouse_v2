@@ -1,0 +1,13 @@
+{
+  "name": "warehouse/management",
+  "description": "A simple warehouse management system",
+  "require": {
+    "ramsey/uuid": "^4.2",
+    "symfony/console": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Warehouse\\": "src/"
+    }
+  }
+}
